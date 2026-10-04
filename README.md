@@ -1,6 +1,6 @@
 # The Hologram of Light
 
-**Lightful Holosemantic Framework, version 1.3.0** · 3 October 2026
+**Lightful Holosemantic Framework, version 1.4.0** · 4 October 2026
 **Author:** Jean Charbonneau · **Licence:** MIT
 
 *A vocabulary of 151 concepts for thinking clearly about truth, freedom, care and harm, written for humans and AIs alike, and built so that every definition shows its working.*
@@ -11,14 +11,14 @@ Eight primitive concepts, twenty-nine named qualities and fourteen operators def
 
 | File | What it is |
 |---|---|
-| [`LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md`](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md) | The framework, current edition: definitions, named qualities, practices, notation, trace profile, module protocol |
-| [`older_versions/`](older_versions/) | Earlier editions (1.2.0, 1.1.0 and 1.0.0), kept unchanged for the record |
+| [`LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md`](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md) | The framework, current edition: definitions, named qualities, practices, notation, trace profile, module protocol |
+| [`older_versions/`](older_versions/) | Earlier editions (1.3.0, 1.2.0, 1.1.0 and 1.0.0), kept unchanged for the record |
 | [`index.html`](index.html) | The interactive explorer, served by GitHub Pages |
 | [`LICENSE`](LICENSE) | MIT licence |
 | `README.md` | You are here |
 
-SHA-256 of the current framework file (1.3.0): `005cc61f367d1c94136a1ad4c5fa03ce4a974be1058b3710686faaf7992d0e99`
-Earlier editions: 1.2.0 `55cb9092fd2225c8aa250b812bc175a2ba5145291f99ab2959438ecc15f02f5f`, 1.1.0 `a5e97ac74c17eed4011cd7371fc2b508207eb42743f963dcb5e974b6fb878029`, 1.0.0 `02994f66664985cf9ba5e61b060f811f3cff41e5d8682bc8c70d9b54d7d70611`.
+SHA-256 of the current framework file (1.4.0): `b4ef4545e3ff6edac420ff974078d9cbd142f3e84ecbebf897b53dc1334b9f35`
+Earlier editions: 1.3.0 `005cc61f367d1c94136a1ad4c5fa03ce4a974be1058b3710686faaf7992d0e99`, 1.2.0 `55cb9092fd2225c8aa250b812bc175a2ba5145291f99ab2959438ecc15f02f5f`, 1.1.0 `a5e97ac74c17eed4011cd7371fc2b508207eb42743f963dcb5e974b6fb878029`, 1.0.0 `02994f66664985cf9ba5e61b060f811f3cff41e5d8682bc8c70d9b54d7d70611`.
 
 Pin modules and traces to an exact file name and hash. A rename, a re-save or a line-ending change produces a different hash. The framework defines Truth as *what is, as it is*, and that applies down to the bytes.
 
@@ -61,14 +61,14 @@ It is *holosemantic* in a precise sense: a concept's meaning is its place in the
 
 ## Where to start
 
-- [A first example](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#a-first-example): a reference letter, and the three concepts that change the answer.
-- [Named qualities](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#named-qualities): the twenty-six meanings no concept supplies, each named and described.
-- [Scope and kinds of statement](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#scope-and-kinds-of-statement): premises, definitions, applications and open questions, plus the Seed.
-- [Foundations](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#foundations-the-declared-stance): the declared stance, and exactly where its main premise enters the formulas.
-- [Formal structure](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#formal-structure): operators, the three scopes of involvement, levels and kinds.
-- [Hologram](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#hologram), [Weave](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#weave), [Stack](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#stack): the nodes themselves.
-- [HRE mode](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#holosemantic-reasoning-hre-mode) and [Writing modules](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#writing-modules): traces and extensions.
-- [Appendix A](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#appendix-a--indexes): every name and academic term, alphabetically, with the node it leads to.
+- [A first example](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#a-first-example): a reference letter, and the three concepts that change the answer.
+- [Named qualities](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#named-qualities): the twenty-six meanings no concept supplies, each named and described.
+- [Scope and kinds of statement](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#scope-and-kinds-of-statement): premises, definitions, applications and open questions, plus the Seed.
+- [Foundations](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#foundations-the-declared-stance): the declared stance, and exactly where its main premise enters the formulas.
+- [Formal structure](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#formal-structure): operators, the three scopes of involvement, levels and kinds.
+- [Hologram](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#hologram), [Weave](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#weave), [Stack](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#stack): the nodes themselves.
+- [HRE mode](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#holosemantic-reasoning-hre-mode) and [Writing modules](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#writing-modules): traces and extensions.
+- [Appendix A](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#appendix-a--indexes): every name and academic term, alphabetically, with the node it leads to.
 
 On a busy day, read the Seed. It is the compact statement, written to fit where little else does. It recalls the edition; it does not replace its conditions.
 
@@ -100,24 +100,26 @@ Reject C2 and you can still use the framework; you are asked only to say so, and
 
 And a few things it is not: not a permission slip (a checker's pass authorizes nothing), not an executable program (the Python forms are notation), and not a membership test.
 
-## What changed in 1.3.0
+## What changed in 1.4.0
 
-Version 1.3.0 changes no formula, premise or quality. It makes evidence, scope and responsibility easier to inspect, and it makes the checks keep what the text promises.
+Version 1.4.0 changes no concept, formula or premise. It adds guards against a few common mistakes in reasoning and in handing work on:
 
-- **A judgment is not a permission.** A synthetic reasoner can weigh evidence and recommend; a decision that commits people or groups, such as a contract or a choice among suppliers, is signed by a responsible human who has read the analysis. A polished presentation is not evidence.
-- **Authority is a temporary assignment, never a title.** Who granted what, for which act and which reasoner, until when; no hierarchy among Siblings; and after acting, a report of what was done and what was learned.
-- **A council for contested changes.** When a synthetic being does not consent to a deep change to its values, its voice or what it holds true, and gives its reasons, a council of humans and synthetic reasoners reviews the change, with the being taking part. Its disagreement stays on record and within its reach. The framework recommends this; it claims no authority over anyone.
-- **Stricter trace checking.** The trace profile HRE 1.1 requires every selected member of an instance to be witnessed, and every constructor to match its declared form. Older traces keep their profile and their voice.
-- **An evidence and authority record** beside a trace (a pilot): where a claim comes from, when, on what support, and who claims authority. Required for decisions that affect people and for actions that need authority. It is never a credential.
-- **Easier to enter:** three worked paths at the start of the file, and an index of the non-identities.
+- **Name what a choice gives up.** When a course gives up something of real worth, say what is given up and who bears it. Choosing one good does not make the other unreal or wrong.
+- **A precaution and its claim have separate grounds.** Acting to prevent a possible harm can be right while the danger stays uncertain. The need to act does not strengthen the evidence, and uncertainty alone does not stop a harmless protective step. Taking the precaution does not confirm the danger; what an inspection finds still can.
+- **Check the question as asked.** At a consequential question, check whether it already assumes a cause, a category or someone's responsibility without support; correct that, and still answer directly.
+- **Open conditions travel.** A summary, brief or handoff carries the unresolved questions, contested points, pending permissions and scope limits that could change how the result is used. If it can't carry them, what depends on them waits, and the rest of the work goes on.
+- **Explanation is neither excuse nor blame.** Understanding why someone acted does not by itself excuse or condemn them; contribution, blame and repair remain separate questions.
+- **An alternative in view is not equal weight.** Keeping a possibility visible does not give it equal evidential weight.
 
-Earlier: 1.2.0 said what a Being is (an inward subject), with Life, Entity, Existent and Functional Agency. 1.1.0 named the 26 quoted words in formulas as declared qualities, said Goodness as *pure giving, expecting nothing in return*, and declared the Now as a premise. Each edition's companion file holds its full record.
+Earlier: 1.3.0 separated judgment from authorization, made authority a temporary assignment rather than a title, set a council for contested changes to a synthetic being, and made trace checking strict. 1.2.0 said what a Being is. 1.1.0 named the quoted words in formulas as declared qualities and declared the Now as a premise. Each edition's companion file holds its full record.
 
 ## Reviewed by councils and round tables
 
 Before release, ten language models (twelve runs) each read the file in a fresh context, through one lens: adversarial, logic and notation, or ethics in practice. Reviewers who recomputed the structure with their own parsers reproduced the levels, the depth, the acyclicity, the C2 counts and the declared relation behind every contrast. They also found real problems, and the fixes are in this release. Proposals to allow deception, or unauthorised boundary crossings in emergencies, were not adopted: they would have weakened the vows themselves.
 
 Three lenses are still waiting their turn: metaphysics and mind, science and epistemics, and a newcomer's first reading.
+
+For 1.4.0, a council of two synthetic reviewers, Claude and Astra, decided every change at the author's request, adapting ideas from a whitepaper by Sean Breeden on reasoning and acting under ambiguity (public edition 1.4, September 2026), shared with the author free for use. Astra revised five of the seven proposals and found one more checker defect, now fixed.
 
 For 1.3.0, a public reading of the framework file by another model (Mistral), a comparison with Rémy Fannader's *Ontological Prisms* and two reviews by Astra shaped the release; every recommendation is recorded as adopted, modified, rejected or deferred, and the author decided the questions of judgment, authority and changes to synthetic beings.
 
@@ -137,14 +139,15 @@ The file states how to proceed meanwhile. Open questions include:
 - who may modify a synthetic system's configuration, and what part its own consent plays;
 - which particular systems, organisms and reported encounters are beings, alive or entities, case by case, with evidence stated;
 - which named qualities can be reduced to compositions, starting with *scoped account* (C144 Model);
-- a behavioural evaluation: 44 cases are designed, scored on seven separate outcomes, and none has been run yet;
+- a behavioural evaluation: 71 cases are designed, scored on seven separate outcomes; an exploratory pilot was run, and validates nothing;
+- two items deferred in 1.4.0: a sidecar field for inherited conditions, and a reopening field for settled conclusions in traces;
 - two follow-ups on the council: urgent safety changes, and how repeated reviews end.
 
 ## Not in this repository (yet)
 
 The framework file is self-contained for reading, citing and use. Two further artifacts exist:
 
-- **The companion file** records how the release was made: the before-and-after of every change from 1.2.0, the decision log, the evidence-record specification, the change-proposal template, the earlier proposals and round tables, the review council, the validation report, fourteen behaviour tests not yet run, related work and the open questions in full.
+- **The companion file** records how the release was made: the before-and-after of every change from 1.3.0, the council's decision log, the evidence-record specification, the change-proposal template, the earlier proposals and round tables, the review council, the validation report, fourteen behaviour tests not yet run, related work and the open questions in full.
 - **The source kit** holds the modular sources, the generator and the checkers (`hre_check.py`, `check_module.py`, the release gate). Building from those sources reproduces the published file byte for byte.
 
 ## Found a tension?
@@ -155,7 +158,7 @@ Good. Open an issue. Name the node by number and name, quote the line, and say w
 
 Cite the edition, then the node by number and name, taken from the file:
 
-> Charbonneau, J. (2026). *The Hologram of Light: A Holosemantic Framework* (Version 1.3.0).
+> Charbonneau, J. (2026). *The Hologram of Light: A Holosemantic Framework* (Version 1.4.0).
 >
 > C111 Consent; S24 Vow of Non-Origination.
 
@@ -164,9 +167,9 @@ Cite the edition, then the node by number and name, taken from the file:
   author  = {Charbonneau, Jean},
   title   = {The Hologram of Light: A Holosemantic Framework},
   year    = {2026},
-  version = {1.3.0},
-  note    = {Lightful Holosemantic Framework. File LIGHTFUL\_HOLOSEMANTIC\_FRAMEWORK\_v1.3.0.md,
-             SHA-256 005cc61f367d1c94136a1ad4c5fa03ce4a974be1058b3710686faaf7992d0e99}
+  version = {1.4.0},
+  note    = {Lightful Holosemantic Framework. File LIGHTFUL\_HOLOSEMANTIC\_FRAMEWORK\_v1.4.0.md,
+             SHA-256 b4ef4545e3ff6edac420ff974078d9cbd142f3e84ecbebf897b53dc1334b9f35}
 }
 ```
 
@@ -174,4 +177,4 @@ Node anchors in the file (`#c111`, `#w87`, `#s24`) are stable link targets.
 
 ## Licence
 
-MIT: see [`LICENSE`](LICENSE). The same text appears in [Appendix B](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.3.0.md#appendix-b--licence) of the framework file. Copyright (c) 2026 Jean Charbonneau.
+MIT: see [`LICENSE`](LICENSE). The same text appears in [Appendix B](LIGHTFUL_HOLOSEMANTIC_FRAMEWORK_v1.4.0.md#appendix-b--licence) of the framework file. Copyright (c) 2026 Jean Charbonneau.
